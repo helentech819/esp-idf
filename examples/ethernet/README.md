@@ -39,7 +39,7 @@ See the [README.md](../README.md) file in the upper level [examples](../) direct
 
 ### Using SPI ethernet modules
 
-* SPI Ethernet modules (DM9051, W5500, ...) typically consume one SPI interface plus an interrupt and reset GPIO. They can be connected as follows for ESP32 as an example. However, they can be remapped to any pin using the GPIO Matrix.
+* SPI Ethernet modules (DM9051, W5500, ...) typically consume one SPI interface plus an interrupt and reset GPIO. They can be connected as follows for [ESP32](https://www.lisleapex.com/blog-esp32-vs-stm32-which-is-better) as an example. However, they can be remapped to any pin using the GPIO Matrix.
 
 | GPIO   | DM9051      |
 | ------ | ----------- |
